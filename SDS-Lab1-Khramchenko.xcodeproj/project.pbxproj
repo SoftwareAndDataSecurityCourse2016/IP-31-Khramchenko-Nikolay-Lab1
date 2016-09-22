@@ -8,23 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		8B3628371D93E5A900635105 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3628361D93E5A900635105 /* main.swift */; };
+		8B3628461D93FB4900635105 /* 2.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B3628421D93FB4000635105 /* 2.txt */; };
+		8B3628471D93FB4900635105 /* 3.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B3628431D93FB4000635105 /* 3.txt */; };
+		8B3628481D93FB4900635105 /* 4.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B3628441D93FB4000635105 /* 4.txt */; };
+		8B3628491D93FB4900635105 /* 5.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B3628451D93FB4000635105 /* 5.txt */; };
+		8B36284B1D94218600635105 /* 1.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8B36284A1D94217B00635105 /* 1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8B3628311D93E5A900635105 /* CopyFiles */ = {
+		8B3628401D93F43600635105 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 7;
 			files = (
+				8B36284B1D94218600635105 /* 1.txt in CopyFiles */,
+				8B3628461D93FB4900635105 /* 2.txt in CopyFiles */,
+				8B3628471D93FB4900635105 /* 3.txt in CopyFiles */,
+				8B3628481D93FB4900635105 /* 4.txt in CopyFiles */,
+				8B3628491D93FB4900635105 /* 5.txt in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8B3628331D93E5A900635105 /* SDS-Lab1-Khramchenko */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SDS-Lab1-Khramchenko"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3628361D93E5A900635105 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8B3628421D93FB4000635105 /* 2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 2.txt; sourceTree = "<group>"; };
+		8B3628431D93FB4000635105 /* 3.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 3.txt; sourceTree = "<group>"; };
+		8B3628441D93FB4000635105 /* 4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 4.txt; sourceTree = "<group>"; };
+		8B3628451D93FB4000635105 /* 5.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 5.txt; sourceTree = "<group>"; };
+		8B36284A1D94217B00635105 /* 1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				8B3628361D93E5A900635105 /* main.swift */,
+				8B36284A1D94217B00635105 /* 1.txt */,
+				8B3628421D93FB4000635105 /* 2.txt */,
+				8B3628431D93FB4000635105 /* 3.txt */,
+				8B3628441D93FB4000635105 /* 4.txt */,
+				8B3628451D93FB4000635105 /* 5.txt */,
 			);
 			path = "SDS-Lab1-Khramchenko";
 			sourceTree = "<group>";
@@ -71,7 +91,7 @@
 			buildPhases = (
 				8B36282F1D93E5A900635105 /* Sources */,
 				8B3628301D93E5A900635105 /* Frameworks */,
-				8B3628311D93E5A900635105 /* CopyFiles */,
+				8B3628401D93F43600635105 /* CopyFiles */,
 			);
 			buildRules = (
 			);
