@@ -97,7 +97,7 @@ class NGrammMap {
 //Возвращает -1, если size < 1 или size > 5 иначе
 //число типа Double - критерий соответствия текста к реальному английскому тексту
 //
-//Таблица частотности использования n-граммов была взята с сайта: http://
+//Таблица частотности использования n-граммов была взята с сайта: http://practicalcryptography.com/cryptanalysis/letter-frequencies-various-languages/english-letter-frequencies/
 func calculateCriterion(text : String, size : Int = 3) -> Double {
     if (size < 1 || size > 5) {
         return -1;
